@@ -1,0 +1,27 @@
+// Media Queries
+$maxExtraMobile: "(max-width: 575px)";
+$minMobile: "(min-width: 576px)";
+$maxMobile: "(max-width: 767px)";
+$minSmall: "(min-width: 768px)";
+$maxSmall: "(max-width: 991px)";
+$minMedium: "(min-width: 992px)";
+$maxMedium: "(max-width: 1199px)";
+$minLarge: "(min-width: 1200px)";
+
+// some variables like transition, sont-size
+$trans: .4s;
+$fontSize: 20px;
+
+// colors
+$flatFFF: #FFF;
+$flatAE: #AEAEAE;
+$flat70: #707070;
+$mainColor: #9B59B6;
+$titleColor: #816BB0;
+
+// gradients Colors
+$color1: #9964AB;
+$color2: #6076B8;
+
+// linear gradients
+$bg-gradient: linear-gradient(to bottom, $color1, $color2);

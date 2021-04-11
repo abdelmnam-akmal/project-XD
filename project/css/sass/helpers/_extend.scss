@@ -1,0 +1,13 @@
+%f-bold {font-weight: bold}
+%p-absolute {position: absolute}
+%p-relative {position: relative}
+%center-flex {display: flex; align-items: center; justify-content: center}
+%defaultBtn {
+    background-image: $bg-gradient;
+    border-radius: 50px;
+    @extend %center-flex;
+    color: $flatFFF;
+    font-size: $fontSize - 3;
+    text-decoration: none;
+}
+

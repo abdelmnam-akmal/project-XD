@@ -1,0 +1,36 @@
+.header {
+    // start style of navbar content
+    @import "../layout/navbar";
+    // end style of navbar content
+    background: url('../images/bg-header.svg') no-repeat top right;
+    height: 100vh;
+    .header-content {
+        padding-top: 200px;
+        .header-text {
+            display: flex;
+            align-items: center;
+            > div {
+                h1 {
+                    font-size: $fontSize + 30;
+                    margin-bottom: 27px;
+                    color: $titleColor;
+                }
+                p {
+                    font-size: $fontSize;
+                    line-height: 50px;
+                    color: $titleColor;
+                } .btns-header {
+                    display: flex;
+                    .default-btn {
+                        @extend %defaultBtn;
+                        padding: 15px 30px;
+                        margin-top: 50px;
+                        &:last-of-type {
+                            margin-right: 52px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
